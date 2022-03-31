@@ -22,30 +22,30 @@ End the program and close the output image windows.
 ### Developed By:
 ### Register Number: 
 i) #To Read,display the image
-```Python
+```python3
 import cv2
 
 ```
 ii) #To write the image
-```Python
+```python3
 
 
 
 ```
 iii) #Find the shape of the Image
-```Python
+``python3
 
 
 
 ```
 iv) #To access rows and columns
-```Python
+```python3
 
 
 
 ```
 v) #To cut and paste portion of image
-```Python
+```python3
 
 
 
