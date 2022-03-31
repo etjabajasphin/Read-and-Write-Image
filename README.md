@@ -19,20 +19,20 @@ Use imwrite(filename, image) to write the image.
 ### Step5:
 End the program and close the output image windows.
 ## Program:
-~~~ python
+
 # Developed By:
 # Register Number
 # To Read,display the image
+```Python
+udjdj
 
-
-
-
+```
 # To write the image
+```Python
 
 
 
-
-
+```
 # Find the shape of the Image
 
 
