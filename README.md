@@ -19,7 +19,7 @@ Use imwrite(filename, image) to write the image.
 ### Step5:
 End the program and close the output image windows.
 ## Program:
-```python
+~~~ python
 # Developed By:
 # Register Number
 # To Read,display the image
@@ -55,7 +55,7 @@ End the program and close the output image windows.
 
 
 
-```
+~~~
 ## Output:
 
 ### i) Read and display the image
