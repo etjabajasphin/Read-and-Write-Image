@@ -19,43 +19,38 @@ Use imwrite(filename, image) to write the image.
 ### Step5:
 End the program and close the output image windows.
 ## Program:
-
-# Developed By:
-# Register Number
-# To Read,display the image
+### Developed By:
+### Register Number: 
+i) #To Read,display the image
 ```Python
-udjdj
+import cv2
 
 ```
-# To write the image
+ii) #To write the image
 ```Python
 
 
 
 ```
-# Find the shape of the Image
+iii) #Find the shape of the Image
+```Python
 
 
 
-
-# To access rows and columns
-
-
-
-
-
-# To cut and paste portion of image
+```
+iv) #To access rows and columns
+```Python
 
 
 
+```
+v) #To cut and paste portion of image
+```Python
 
 
 
+```
 
-
-
-
-~~~
 ## Output:
 
 ### i) Read and display the image
