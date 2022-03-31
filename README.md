@@ -22,12 +22,12 @@ End the program and close the output image windows.
 ### Developed By:
 ### Register Number: 
 i) #To Read,display the image
-```python3
-import cv2
+```
+  import cv2
 
 ```
 ii) #To write the image
-```python3
+```
 
 
 
