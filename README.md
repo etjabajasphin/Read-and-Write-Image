@@ -22,7 +22,7 @@ End the program and close the output image windows.
 ### Developed By:
 ### Register Number: 
 i) #To Read,display the image
-```
+```Python
 import cv2
 
 ```
