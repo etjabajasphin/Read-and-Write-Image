@@ -23,7 +23,7 @@ End the program and close the output image windows.
 ### Register Number: 
 i) #To Read,display the image
 ```
-  import cv2
+  
 
 ```
 ii) #To write the image
