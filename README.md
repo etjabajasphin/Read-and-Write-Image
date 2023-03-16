@@ -19,34 +19,69 @@ Use imwrite(filename, image) to write the image.
 ### Step5:
 End the program and close the output image windows.
 ## Program:
-### Developed By:
-### Register Number: 
+```
+### Developed By:ANITHA P
+### Register Number: 212221240004
 i) #To Read,display the image
-```
-  
 
+import cv2
+A=cv2.imread("image.jpg",1)
+cv2.imshow("212221240004",A)
+cv2.waitKey(0)
 ```
+```
+
 ii) #To write the image
+
+import cv2
+A=cv2.imread("image.jpg",1)
+cv2.imwrite("image.jpg",A)
+cv2.imshow("212221240004",A)
+cv2.waitKey(0)
+
+
+```
 ```
 
-
-
-```
 iii) #Find the shape of the Image
-```python3
 
-
-
+import random
+import cv2
+A=cv2.imread("image.jpg",1)
+for i in range(100):
+    for j in range(A.shape[1]):
+        A[i][j]=[random.randint(0,255),random.randint(0,255),random.randint(0,255)]
+cv2.imshow("212221240004",A)
+cv2.waitKey(0)
 ```
+```
+
+
+
 iv) #To access rows and columns
 
-```python3
+
+import random
+import cv2
+A=cv2.imread("image.jpg",1)
+for i in range(100):
+    for j in range(A.shape[1]):
+        A[i][j]=[random.randint(0,255),random.randint(0,255),random.randint(0,255)]
+cv2.imshow("212221240004",A)
+cv2.waitKey(0)
 
 
 
 ```
+```
 v) #To cut and paste portion of image
-```python3
+
+import cv2
+A=cv2.imread("image1.jpg",1)
+tag=A[140:240,165:180]
+A[25:125,50:65]=tag
+cv2.imshow("212221240004",A)
+cv2.waitKey(0)
 
 
 
@@ -56,26 +91,23 @@ v) #To cut and paste portion of image
 
 ### i) Read and display the image
 
-<br>
-<br>
+![output4](./pic1.1.png)
 
 ### ii)Write the image
 
-<br>
-<br>
+![output3](./pic2.png)
 
 ### iii)Shape of the Image
 
-<br>
-<br>
+![output2](./pic3.png)
 
 ### iv)Access rows and columns
-<br>
-<br>
+
+![output1](./pic4.png)
+
 
 ### v)Cut and paste portion of image
-<br>
-<br>
+![output](./pic5.png)
 
 ## Result:
 Thus the images are read, displayed, and written successfully using the python program.
