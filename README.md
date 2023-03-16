@@ -19,63 +19,86 @@ Use imwrite(filename, image) to write the image.
 ### Step5:
 End the program and close the output image windows.
 ## Program:
-### Developed By:
-### Register Number: 
-i) #To Read,display the image
-```
+### Developed By: Sarveshkaran vk
+### Register Number: 212221230089
+~~~
+i) # To Read,display the image
+
+import cv2 as cv
+capture=cv.imread("tigor.jpg")
+cv.imshow('22008265',capture)
+cv.waitKey(0)
+
   
 
-```
+
 ii) #To write the image
 ```
-
+import cv2 as cv
+capture=cv.imread("/home/sec/Downloads/tigor.jpg")
+cv.imwrite("tigor.jpg",capture)
+cv.imshow("22008265",capture)
+cv.waitKey(0)
 
 
 ```
 iii) #Find the shape of the Image
-```python3
+```
+import random
+import cv2 as cv
+capture=cv.imread("tigor.jpg")
+print(capture.shape)
 
 
 
 ```
 iv) #To access rows and columns
 
-```python3
+import random
+import cv2 as cv
+capture=cv.imread("tigor.jpg")
+for i in range(70,90):
+    for j in range(110,170):
+        capture[i][j]=[0,0,0]
+cv.imshow("22008265",capture)
+cv.waitKey(0)
 
 
 
 ```
 v) #To cut and paste portion of image
-```python3
+
+import random
+import cv2 as cv
+capture=cv.imread("tigor.jpg")
+for i in range(70,90):
+    for j in range(110,170):
+        capture[i][j]=[0,0,0]
+cv.imshow("22008265",capture)
+cv.waitKey(0)
 
 
-
-```
+~~~
 
 ## Output:
 
 ### i) Read and display the image
 
-<br>
-<br>
+![](./1.png)
 
 ### ii)Write the image
 
-<br>
-<br>
+![](./2.png)
 
 ### iii)Shape of the Image
 
-<br>
-<br>
+![](./5.png)
 
 ### iv)Access rows and columns
-<br>
-<br>
+![](./3.png)
 
 ### v)Cut and paste portion of image
-<br>
-<br>
+![](./4.png)
 
 ## Result:
 Thus the images are read, displayed, and written successfully using the python program.
